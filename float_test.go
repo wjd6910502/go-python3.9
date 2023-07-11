@@ -50,7 +50,7 @@ func TestPyFloatMinMax(t *testing.T) {
 
 	assert.Equal(t, 2.2250738585072014e-308, PyFloat_GetMin())
 
-	PyFloat_ClearFreeList()
+	//PyFloat_ClearFreeList()
 }
 
 func TestPyFloatInfo(t *testing.T) {
